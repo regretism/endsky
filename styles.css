@@ -1,0 +1,296 @@
+* {
+
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+}
+.topcontainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 30px 0;
+	border-bottom: solid 1.5px black;
+	flex-wrap: wrap;
+}
+@media(max-width: 900px){
+	.left_side{
+		order: 1;
+	}	
+}
+@media(max-width: 400px){
+	.left_side{
+		width: 400px;
+	}
+	
+}
+.left_side a {
+	display: flex;
+	justify-content: flex-start;
+}
+.right_side {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	
+	min-width: 440px;
+	flex-grow: 1;
+
+	
+}
+@media(max-width: 900px){
+	.right_side{
+		width: 100%;
+		margin-top: 30px;
+		min-width: 0;
+		order: 3;
+		display: flex;
+		justify-content: center;
+	}
+}
+.right_side ul {
+	padding-left: 0;
+	margin: 0;
+	font-size: 16px;
+	line-height: 1;
+}
+
+
+.right_side ul li {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 1;
+}
+
+@media(max-width: 400px){
+	.right_side ul li{
+		margin: 10px 0;
+	}
+}
+.right_side ul li a {
+	font-size: 16px;
+	padding: 0 20px;
+}
+@media(max-width: 900px){
+	.right_side ul li a {
+		font-size: 14px;
+		padding: 0 10px;
+	}	
+}
+.topblock {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.group {
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+	margin-left: 20px;
+	font-size: 16px;
+}
+.paddingbottom {
+	font-weight: bold;
+	font-size: 16px;
+	text-align: right;
+}
+.phonemail {
+	font-size: 16px;
+	margin-left: 40px;
+}
+@media(max-width: 900px){
+	.phonemail{
+		order:2;
+	}
+}
+
+@media(max-width: 400px){
+	.phonemail{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 30px;
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
+.paddingtop {
+	text-align: right;
+}
+
+@media( max-width:400px ){
+	.paddingtop{
+		display: flex;
+		align-items: center;
+	}
+	
+}
+.paddingtop a {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.mainroad {
+display: flex;
+padding: 15px 20px;
+align-items: center;
+justify-content: center;
+border: solid 1px black; 
+font-size: 16px;
+}
+h1{
+	font-size: 36px;
+	text-align: center;
+}
+h2 {
+	font-weight: normal;
+	font-size: 20px;
+	text-align: center;
+	max-width: 450px;
+	
+	padding-bottom: 30px;
+}
+h3{
+	font-weight: normal;
+	font-size: 20px;
+	text-align: center;
+}
+h4{
+	font-size: 36px;
+}
+@media(max-width: 635px){
+	h4{
+		text-align: center;
+	}
+}
+.container li {
+	padding-bottom: 10px;
+	margin-right: 20%;
+}
+.container div {
+padding-bottom: 5px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.maincontainer{
+	margin-top: 50px;
+	margin-bottom: 50px;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 80%;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 900px){
+	.maincontainer{
+		width: 100%;
+	}
+	
+}
+.divbox{
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+	align-items: center;
+	background: #DCDCDC;
+	border: solid 1px black; 
+	width: 22%;
+	height: 250px;
+
+	min-width: 300px;
+	max-width: 340px;
+	margin: 10px;
+}
+.divbox2{
+	width: 40%;
+display: flex;
+flex-direction: column;
+min-width: 300px;
+}
+.divbox3{
+	width: 40%;
+display: flex;
+flex-direction: column;
+min-width: 300px;
+}
+.quest{
+width: 50%; 
+height: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+border: solid 1px black; 
+margin-top: 30px;
+box-shadow: 5px 5px 5px grey;
+margin-bottom: 30px;
+}
+ .footercontainer {
+	 border-top: solid 1.5px black;
+	margin-top: 20px;
+	   display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	flex-wrap: wrap;
+ }
+  .footerdiv {
+	 display: flex;
+	flex-direction: column;
+	min-width: 300px;
+	margin: 15px 0;
+ }
+   .footerdiv2 {
+	 display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 300px;
+	margin: 15px 0
+ }
+  #text-content{
+	max-width: 80%;
+ }
+#content{
+	  
+	margin-top: 60px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 10px;
+ }
+  .divbox3 ul{
+	  margin: 0;
+	  line-height: 32px;
+  }
+
+
+  .our-work{
+	  margin-right: 20px;
+  }
+
+  @media(max-width: 655px){
+	.our-work{
+		margin-right: 0px;
+	}
+	
+  }
+
+  @media(max-width: 670px){
+	  .footerdiv{
+		  width: 100%;
+		  align-items: center;
+		
+	  }
+	  .footerdiv .paddingtop{
+		  text-align: center;
+	  }
+	  .footerdiv .paddingbottom{
+		  text-align: center;
+	  }
+	  .footerdiv2{
+		width: 100%;
+	}
+  }
